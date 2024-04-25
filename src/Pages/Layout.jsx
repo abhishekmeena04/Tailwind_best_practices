@@ -195,7 +195,7 @@ const Layout = () => {
       </nav> */}
 
       {/* wscube */}
-      <div className="nav-main bg-[#2699fb] p-4">
+      {/* <div className="nav-main bg-[#2699fb] p-4">
         <div className="nav max-w-screen-xl py-2 px-4 flex justify-between items-center mx-auto">
           <div className="left text-3xl font-bold">WsCube Tech.</div>
           {navbar ? (
@@ -265,7 +265,7 @@ const Layout = () => {
               click
             </button>
           </ul>
-          {/* responsive menu */}
+
           {navbar && (
             <ul className="right items-center md:hidden text-white fixed bg-black left-0 top-[84px] w-full">
               <li className="py-3 px-9">
@@ -321,7 +321,7 @@ const Layout = () => {
             </ul>
           )}
         </div>
-      </div>
+      </div> */}
       {/* <h1 className="h-10 w-full bg-red-900">footer</h1> */}
       <Outlet />
     </>

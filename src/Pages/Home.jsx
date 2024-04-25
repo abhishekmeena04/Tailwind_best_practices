@@ -8,10 +8,12 @@ import Grid from "../components/GridCol";
 import GridRow from "../components/GridRow";
 import Card from "../components/Card";
 import OurServices from "../components/OurServices";
+import NetflixFirstPage from "../components/NetflixFirstPage";
 
 const Home = () => {
   return (
     <>
+      <NetflixFirstPage />
       <Banner />
       <Experts />
       <Newsletter />
