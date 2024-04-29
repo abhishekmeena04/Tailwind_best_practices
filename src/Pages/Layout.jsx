@@ -1,5 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
-import React, { useState } from "react";
+import { Outlet, Link, useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { MdOutlineLocalPhone } from "react-icons/md";
@@ -13,10 +13,11 @@ import { addToCart } from "../store/cartSlice";
 const Layout = () => {
   const [menu, setMenu] = useState("menu");
   const dispatch = useDispatch();
-  const [navbar, setNavbar] = useState(false);
 
   return (
     <>
+     
+      
       {/* <nav className="nav text-white  bg-[#111723] w-full z-20 top-0 start-0 border-b h-fit fixed">
         <div className="max-w-screen-xl flex-wrap justify-between items-center mx-auto p-4 relative hidden md:flex">
           <div className="flex gap-[20px]">

@@ -18,6 +18,7 @@ const Grid = () => {
         aliquam rerum? Mollitia, eligendi sed. Ad, amet molestiae. Dolorum,
         laborum voluptas.
       </div>
+
       <div className="bg-green-900 py-5 px-2 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
         aliquam rerum? Mollitia, eligendi sed. Ad, amet molestiae. Dolorum,
